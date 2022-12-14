@@ -1,0 +1,35 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.form-control {
+    margin: 5% auto;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border-radius: 8%;
+    padding: 12%;
+    background-color: rgba(128, 255, 0, 0.863);
+}
+
+label{
+    font-weight: 700;   
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
